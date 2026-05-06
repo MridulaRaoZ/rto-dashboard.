@@ -13,5 +13,5 @@ export const msalConfig: Configuration = {
 };
 
 export const loginRequest: PopupRequest = {
-  scopes: [`api://${import.meta.env.VITE_CLIENT_ID as string}/attendance.read`],
+  scopes: ['openid', 'profile', 'User.Read', 'Calendars.Read'],
 };
