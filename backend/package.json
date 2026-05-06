@@ -1,0 +1,25 @@
+{
+  "name": "rto-dashboard-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch & node --watch dist/index.js"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.16.2",
+    "better-sqlite3": "^11.7.0",
+    "botbuilder": "^4.23.1",
+    "express": "^4.21.2",
+    "jose": "^5.9.6",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/node-cron": "^3.0.11",
+    "typescript": "^5.7.2"
+  }
+}
